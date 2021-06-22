@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">verify that facebook homepage is opened (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter username as &quot;pnishant036@yahoo.com&quot; and password as &quot;Test@0036&quot; (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on facebook login button (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user do post as &quot;Hello world&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&#x2F;test-insurance-company-13732055i&quot; (PASSED : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">verify that homepage is opened (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on login button (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">verify that login page open (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter username as &quot;pnishant036@yahoo.com&quot; and &quot;Test@0036&quot; (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&#x2F;test-insurance-company-13732055i&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user hover on &lt;4&gt; star (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">verify that first &lt;4&gt; stars inside get lit up when you hover over on &lt;4&gt; one star (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user give &lt;4&gt; star review (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">verify that &lt;4&gt; star review displayed on write review form (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user select health insurance from drop down &quot;Health Insurance&quot; on review form (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user write review as &quot;This is just a testing review I submitted to test the automation developed by me so please kindly ignore it, Also application is really awesome&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user submit review form (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify reviewed star count as &lt;4&gt; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify selected dropdownValue as &quot;Health Insurance&quot; (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="29166" started-at="2021-06-22T06:14:17Z" finished-at="2021-06-22T06:14:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AllRunner@548a9f61]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="WalletHub Test" duration-ms="29166" started-at="2021-06-22T06:14:17Z" finished-at="2021-06-22T06:14:46Z">
+      <class name="runner.AllRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.AllRunner@548a9f61]" name="setUpClass" is-config="true" duration-ms="175" started-at="2021-06-22T11:44:17Z" finished-at="2021-06-22T11:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AllRunner@548a9f61]" name="runScenario" duration-ms="3773" started-at="2021-06-22T11:44:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-22T11:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Assignment1"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'L1123.local', ip: 'fe80:0:0:0:1496:b607:27f6:e93b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_275'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59d249c43fe8eaccaa507157a5956092
+*** Element info: {Using=id, value=email}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'L1123.local', ip: 'fe80:0:0:0:1496:b607:27f6:e93b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_275'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59d249c43fe8eaccaa507157a5956092
+*** Element info: {Using=id, value=email}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at com.walletHub.Pages.Assignment1.HomePage.enterUsername(HomePage.java:28)
+	at stepFiles.Assignment1.HomePageSteps.userEnterUsernameAsAndPasswordAs(HomePageSteps.java:21)
+	at ✽.user enter username as "pnishant036@yahoo.com" and password as "Test@0036"(src/test/java/FeatureFiles/Assignment1.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">verify that facebook homepage is opened (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter username as &quot;pnishant036@yahoo.com&quot; and password as &quot;Test@0036&quot; (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on facebook login button (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user do post as &quot;Hello world&quot; (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="killDriver(org.testng.ITestResult)[pri:0, instance:runner.AllRunner@548a9f61]" name="killDriver" is-config="true" duration-ms="517" started-at="2021-06-22T11:44:21Z" finished-at="2021-06-22T11:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AllRunner@548a9f61] output=<div "result">Open Url &quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;&quot; (PASSED : 3s)</div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AllRunner@548a9f61]" name="runScenario" duration-ms="23986" started-at="2021-06-22T11:44:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-22T11:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Assignment2"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 3, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at com.sun.proxy.$Proxy18.get(Unknown Source)
+	at com.walletHub.Pages.Assignment2.DashboardPage.hoverOnStar(DashboardPage.java:55)
+	at stepFiles.Assignment2.DashboardSteps.userHoverOnStar(DashboardSteps.java:32)
+	at ✽.user hover on <4> star(src/test/java/FeatureFiles/Assignment2.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&#x2F;test-insurance-company-13732055i&quot; (PASSED : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">verify that homepage is opened (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on login button (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">verify that login page open (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter username as &quot;pnishant036@yahoo.com&quot; and &quot;Test@0036&quot; (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&#x2F;test-insurance-company-13732055i&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user hover on &lt;4&gt; star (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">verify that first &lt;4&gt; stars inside get lit up when you hover over on &lt;4&gt; one star (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user give &lt;4&gt; star review (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">verify that &lt;4&gt; star review displayed on write review form (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user select health insurance from drop down &quot;Health Insurance&quot; on review form (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user write review as &quot;This is just a testing review I submitted to test the automation developed by me so please kindly ignore it, Also application is really awesome&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user submit review form (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify reviewed star count as &lt;4&gt; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify selected dropdownValue as &quot;Health Insurance&quot; (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="killDriver(org.testng.ITestResult)[pri:0, instance:runner.AllRunner@548a9f61]" name="killDriver" is-config="true" duration-ms="675" started-at="2021-06-22T11:44:45Z" finished-at="2021-06-22T11:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AllRunner@548a9f61] output=<div "result">Open Url &quot;https:&#x2F;&#x2F;wallethub.com&#x2F;profile&#x2F;test-insurance-company-13732055i&quot; (PASSED : 12s)</div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.AllRunner@548a9f61]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2021-06-22T11:44:46Z" finished-at="2021-06-22T11:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="generateHTMLReports()[pri:0, instance:runner.AllRunner@548a9f61]" name="generateHTMLReports" is-config="true" duration-ms="1146" started-at="2021-06-22T11:44:46Z" finished-at="2021-06-22T11:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateHTMLReports -->
+      </class> <!-- runner.AllRunner -->
+    </test> <!-- WalletHub Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" verbose="0" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test name="WalletHub Test(failed)" parallel="tests">
+    <classes>
+      <class name="runner.AllRunner">
+        <methods>
+          <include name="generateHTMLReports"/>
+          <include name="setUpClass"/>
+          <include name="killDriver"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.AllRunner -->
+    </classes>
+  </test> <!-- WalletHub Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
