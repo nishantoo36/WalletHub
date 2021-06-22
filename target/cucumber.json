@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3699002282,
+              "duration": 12146215916,
               "status": "passed"
             },
             "line": 4,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 5188567,
+              "duration": 5417476,
               "status": "passed"
             },
             "line": 5,
@@ -51,21 +51,20 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}\n  (Session info: chrome\u003d91.0.4472.106)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027L1123.local\u0027, ip: \u0027fe80:0:0:0:1496:b607:27f6:e93b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_275\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 59d249c43fe8eaccaa507157a5956092\n*** Element info: {Using\u003did, value\u003demail}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy16.sendKeys(Unknown Source)\n\tat com.walletHub.Pages.Assignment1.HomePage.enterUsername(HomePage.java:28)\n\tat stepFiles.Assignment1.HomePageSteps.userEnterUsernameAsAndPasswordAs(HomePageSteps.java:21)\n\tat ✽.user enter username as \"pnishant036@yahoo.com\" and password as \"Test@0036\"(src/test/java/FeatureFiles/Assignment1.feature:9)\n",
-              "duration": 26230935,
-              "status": "failed"
+              "duration": 173709533,
+              "status": "passed"
             },
             "line": 9,
-            "name": "user enter username as \"pnishant036@yahoo.com\" and password as \"Test@0036\"",
+            "name": "user enter username as \"test@testmail.com\" and password as \"absd@123123\"",
             "match": {
               "arguments": [
                 {
-                  "val": "pnishant036@yahoo.com",
+                  "val": "test@testmail.com",
                   "offset": 24
                 },
                 {
-                  "val": "Test@0036",
-                  "offset": 64
+                  "val": "absd@123123",
+                  "offset": 60
                 }
               ],
               "location": "HomePageSteps.userEnterUsernameAsAndPasswordAs(String,String)"
@@ -74,7 +73,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76587989,
+              "status": "passed"
             },
             "line": 10,
             "name": "user click on facebook login button",
@@ -85,7 +85,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14782058455,
+              "status": "passed"
             },
             "line": 11,
             "name": "Open Url \"https://www.facebook.com/\"",
@@ -102,7 +103,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: Proxy element for: DefaultElementLocator \u0027By.xpath: //span[contains(text(),\u0027on your mind\u0027)]\u0027 is not visible\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027L1123.local\u0027, ip: \u0027fe80:0:0:0:1496:b607:27f6:e93b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_275\u0027\nDriver info: driver.version: unknown\n\tat com.walletHub.Pages.Assignment1.NewsFeed.doPost(NewsFeed.java:37)\n\tat stepFiles.Assignment1.NewsFeedSteps.userDoPostAs(NewsFeedSteps.java:19)\n\tat ✽.user do post as \"Hello world\"(src/test/java/FeatureFiles/Assignment1.feature:12)\n",
+              "duration": 10030272393,
+              "status": "failed"
             },
             "line": 12,
             "name": "user do post as \"Hello world\"",
@@ -143,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12594310249,
+              "duration": 15153710171,
               "status": "passed"
             },
             "line": 4,
@@ -161,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 62275166,
+              "duration": 63492969,
               "status": "passed"
             },
             "line": 5,
@@ -183,7 +186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4924170158,
+              "duration": 4238853048,
               "status": "passed"
             },
             "line": 9,
@@ -195,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 6011718,
+              "duration": 4108337,
               "status": "passed"
             },
             "line": 10,
@@ -207,20 +210,20 @@
           },
           {
             "result": {
-              "duration": 5294875727,
+              "duration": 5275081019,
               "status": "passed"
             },
             "line": 11,
-            "name": "user enter username as \"pnishant036@yahoo.com\" and \"Test@0036\"",
+            "name": "user enter username as \"test@testmail.com\" and \"abcd@123124\"",
             "match": {
               "arguments": [
                 {
-                  "val": "pnishant036@yahoo.com",
+                  "val": "test@testmail.com",
                   "offset": 24
                 },
                 {
-                  "val": "Test@0036",
-                  "offset": 52
+                  "val": "abcd@123124",
+                  "offset": 48
                 }
               ],
               "location": "LoginPageSteps.userEnterUsernameAsAnd(String,String)"
@@ -229,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 1057387639,
+              "duration": 1053831677,
               "status": "passed"
             },
             "line": 12,
@@ -247,9 +250,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IndexOutOfBoundsException: Index: 3, Size: 0\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:659)\n\tat java.util.ArrayList.get(ArrayList.java:435)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)\n\tat com.sun.proxy.$Proxy18.get(Unknown Source)\n\tat com.walletHub.Pages.Assignment2.DashboardPage.hoverOnStar(DashboardPage.java:55)\n\tat stepFiles.Assignment2.DashboardSteps.userHoverOnStar(DashboardSteps.java:32)\n\tat ✽.user hover on \u003c4\u003e star(src/test/java/FeatureFiles/Assignment2.feature:13)\n",
-              "duration": 35214659,
-              "status": "failed"
+              "duration": 232062381,
+              "status": "passed"
             },
             "line": 13,
             "name": "user hover on \u003c4\u003e star",
@@ -266,7 +268,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10648581,
+              "status": "passed"
             },
             "line": 14,
             "name": "verify that first \u003c4\u003e stars inside get lit up when you hover over on \u003c4\u003e one star",
@@ -287,7 +290,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 123975127,
+              "status": "passed"
             },
             "line": 15,
             "name": "user give \u003c4\u003e star review",
@@ -304,7 +308,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 44060207,
+              "status": "passed"
             },
             "line": 16,
             "name": "verify that \u003c4\u003e star review displayed on write review form",
@@ -321,7 +326,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 253805726,
+              "status": "passed"
             },
             "line": 17,
             "name": "user select health insurance from drop down \"Health Insurance\" on review form",
@@ -338,7 +344,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 480119978,
+              "status": "passed"
             },
             "line": 18,
             "name": "user write review as \"This is just a testing review I submitted to test the automation developed by me so please kindly ignore it, Also application is really awesome\"",
@@ -355,7 +362,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76535146,
+              "status": "passed"
             },
             "line": 19,
             "name": "user submit review form",
@@ -366,7 +374,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1344182082,
+              "status": "passed"
             },
             "line": 20,
             "name": "Open Url \"https://wallethub.com/profile\"",
@@ -383,7 +392,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError: Verification failed, Expected review count is 4 and actual review count is 0 expected [4] but found [0]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\n\tat org.testng.Assert.assertEquals(Assert.java:125)\n\tat org.testng.Assert.assertEquals(Assert.java:372)\n\tat stepFiles.Assignment2.ProfilePageSteps.verifyReviewedStarCountAs(ProfilePageSteps.java:23)\n\tat ✽.Verify reviewed star count as \u003c4\u003e(src/test/java/FeatureFiles/Assignment2.feature:21)\n",
+              "duration": 10257264,
+              "status": "failed"
             },
             "line": 21,
             "name": "Verify reviewed star count as \u003c4\u003e",

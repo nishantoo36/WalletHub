@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.658" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="68.224" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,8 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/nishant/Desktop/refform/WalletHub/target/surefire/surefirebooter1013128384585827671.jar /Users/nishant/Desktop/refform/WalletHub/target/surefire 2021-06-22T11-44-16_611-jvmRun1 surefire786594049132410290tmp surefire_044708484701102038tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.java.command" value="/Users/nishant/Desktop/refform/WalletHub/target/surefire/surefirebooter3344574081210945387.jar /Users/nishant/Desktop/refform/WalletHub/target/surefire 2021-06-22T12-00-05_851-jvmRun1 surefire526154713820019619tmp surefire_07853684044336445438tmp"/>
     <property name="surefire.test.class.path" value="/Users/nishant/Desktop/refform/WalletHub/target/test-classes:/Users/nishant/Desktop/refform/WalletHub/target/classes:/Users/nishant/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/nishant/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nishant/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nishant/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/nishant/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/nishant/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/nishant/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/nishant/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/nishant/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/nishant/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/nishant/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/nishant/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/nishant/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/nishant/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/nishant/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/nishant/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/nishant/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/nishant/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/nishant/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/nishant/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/nishant/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/nishant/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/nishant/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/nishant/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/nishant/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/nishant/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/nishant/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/nishant/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/nishant/.m2/repository/io/cucumber/cucumber-java/2.0.0/cucumber-java-2.0.0.jar:/Users/nishant/.m2/repository/io/cucumber/cucumber-core/2.0.0/cucumber-core-2.0.0.jar:/Users/nishant/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/Users/nishant/.m2/repository/io/cucumber/tag-expressions/1.0.1/tag-expressions-1.0.1.jar:/Users/nishant/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/Users/nishant/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/nishant/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/nishant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/nishant/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/Users/nishant/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/nishant/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/nishant/.m2/repository/io/cucumber/cucumber-picocontainer/2.1.0/cucumber-picocontainer-2.1.0.jar:/Users/nishant/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/Users/nishant/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/nishant/.m2/repository/io/cucumber/cucumber-testng/2.0.0/cucumber-testng-2.0.0.jar:/Users/nishant/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar:/Users/nishant/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/nishant/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/nishant/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/nishant/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/nishant/.m2/repository/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/nishant/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Users/nishant/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/nishant/.m2/repository/net/masterthought/cucumber-reporting/4.0.0/cucumber-reporting-4.0.0.jar:/Users/nishant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/nishant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/nishant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/nishant/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/nishant/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/nishant/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/nishant/.m2/repository/joda-time/joda-time/2.10/joda-time-2.10.jar:/Users/nishant/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/nishant/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/Users/nishant/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20180219.1/owasp-java-html-sanitizer-20180219.1.jar:/Users/nishant/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/nishant/.m2/repository/org/jetbrains/annotations/16.0.1/annotations-16.0.1.jar:/Users/nishant/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/Users/nishant/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/nishant/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/Users/nishant/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/nishant"/>
@@ -31,10 +30,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/nishant/Desktop/refform/WalletHub/target/surefire/surefirebooter1013128384585827671.jar"/>
+    <property name="surefire.real.class.path" value="/Users/nishant/Desktop/refform/WalletHub/target/surefire/surefirebooter3344574081210945387.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="1.8.0_275-b01"/>
     <property name="user.name" value="nishant"/>
     <property name="path.separator" value=":"/>
@@ -59,19 +57,13 @@
     <property name="java.ext.dirs" value="/Users/nishant/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="runScenario" classname="runner.AllRunner" time="3.796">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}&#10;  (Session info: chrome=91.0.4472.106)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;L1123.local&apos;, ip: &apos;fe80:0:0:0:1496:b607:27f6:e93b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_275&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 59d249c43fe8eaccaa507157a5956092&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="runScenario" classname="runner.AllRunner" time="37.323">
+    <failure message="Proxy element for: DefaultElementLocator &apos;By.xpath: //span[contains(text(),&apos;on your mind&apos;)]&apos; is not visible&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;L1123.local&apos;, ip: &apos;fe80:0:0:0:1496:b607:27f6:e93b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_275&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'on your mind')]' is not visible
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'L1123.local', ip: 'fe80:0:0:0:1496:b607:27f6:e93b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_275'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 59d249c43fe8eaccaa507157a5956092
-*** Element info: {Using=id, value=email}
+Driver info: driver.version: unknown
 </failure>
     <system-out><![CDATA[Feature: Assignment1
 
@@ -80,19 +72,84 @@ Session ID: 59d249c43fe8eaccaa507157a5956092
     Given verify that facebook homepage is opened # HomePageSteps.verifyThatFacebookHomepageIsOpened()
 
   @WebScenarios
-  Scenario: Test Login                                                              # src/test/java/FeatureFiles/Assignment1.feature:8
-    When user enter username as "pnishant036@yahoo.com" and password as "Test@0036" # HomePageSteps.userEnterUsernameAsAndPasswordAs(String,String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  Scenario: Test Login                                                            # src/test/java/FeatureFiles/Assignment1.feature:8
+    When user enter username as "test@testmail.com" and password as "absd@123123" # HomePageSteps.userEnterUsernameAsAndPasswordAs(String,String)
+    When user click on facebook login button                                      # HomePageSteps.userClickOnFacebookLoginButton()
+    When Open Url "https://www.facebook.com/"                                     # PreconditionSteps.openUrl(String)
+    When user do post as "Hello world"                                            # NewsFeedSteps.userDoPostAs(String)
+      org.openqa.selenium.ElementNotVisibleException: Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'on your mind')]' is not visible
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'L1123.local', ip: 'fe80:0:0:0:1496:b607:27f6:e93b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_275'
+Driver info: driver.version: unknown
+	at com.walletHub.Pages.Assignment1.NewsFeed.doPost(NewsFeed.java:37)
+	at stepFiles.Assignment1.NewsFeedSteps.userDoPostAs(NewsFeedSteps.java:19)
+	at ?.user do post as "Hello world"(src/test/java/FeatureFiles/Assignment1.feature:12)
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 5691
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1624343406.885][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+[1624343407.080][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1624343407.080][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Jun 22, 2021 12:00:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'on your mind')]' (tried for 10 second(s) with 2 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.walletHub.driverFactory.CommonDriverFactoryMethod.isElementAvailable(CommonDriverFactoryMethod.java:28)
+	at com.walletHub.driverFactory.Web.DriverFactory.isElementAvailable(DriverFactory.java:25)
+	at com.walletHub.Pages.Assignment1.NewsFeed.doPost(NewsFeed.java:26)
+	at stepFiles.Assignment1.NewsFeedSteps.userDoPostAs(NewsFeedSteps.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:78)
+	at cucumber.api.TestStep.run(TestStep.java:61)
+	at cucumber.api.TestCase.run(TestCase.java:28)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:84)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'on your mind')]"}
   (Session info: chrome=91.0.4472.106)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'L1123.local', ip: 'fe80:0:0:0:1496:b607:27f6:e93b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_275'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:60365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 59d249c43fe8eaccaa507157a5956092
-*** Element info: {Using=id, value=email}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/cq/kq1r5w9s3l1...}, goog:chromeOptions: {debuggerAddress: localhost:61038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b8bd804958d00db7e3eda0b94cb2e87
+*** Element info: {Using=xpath, value=//span[contains(text(),'on your mind')]}
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -102,36 +159,22 @@ Session ID: 59d249c43fe8eaccaa507157a5956092
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at com.walletHub.Pages.Assignment1.HomePage.enterUsername(HomePage.java:28)
-	at stepFiles.Assignment1.HomePageSteps.userEnterUsernameAsAndPasswordAs(HomePageSteps.java:21)
-	at ?.user enter username as "pnishant036@yahoo.com" and password as "Test@0036"(src/test/java/FeatureFiles/Assignment1.feature:9)
-
-    When user click on facebook login button                                        # HomePageSteps.userClickOnFacebookLoginButton()
-    When Open Url "https://www.facebook.com/"                                       # PreconditionSteps.openUrl(String)
-    When user do post as "Hello world"                                              # NewsFeedSteps.userDoPostAs(String)
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 34805
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1624342457.665][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-[1624342457.880][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1624342457.880][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Jun 22, 2021 11:44:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 39 more
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="runner.AllRunner" time="23.99">
-    <failure message="Index: 3, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+  <testcase name="runScenario" classname="runner.AllRunner" time="28.375">
+    <failure message="Verification failed, Expected review count is 4 and actual review count is 0 expected [4] but found [0]" type="java.lang.AssertionError">java.lang.AssertionError: Verification failed, Expected review count is 4 and actual review count is 0 expected [4] but found [0]
 </failure>
     <system-out><![CDATA[
 Feature: Assignment2
@@ -144,22 +187,9 @@ Feature: Assignment2
   Scenario: Test Login                                                                                                                                                          # src/test/java/FeatureFiles/Assignment2.feature:8
     When user click on login button                                                                                                                                             # HomePageSteps.userClickOnLoginButton()
     Then verify that login page open                                                                                                                                            # LoginPageSteps.verifyThatLoginPageOpen()
-    When user enter username as "pnishant036@yahoo.com" and "Test@0036"                                                                                                         # LoginPageSteps.userEnterUsernameAsAnd(String,String)
+    When user enter username as "test@testmail.com" and "abcd@123124"                                                                                                           # LoginPageSteps.userEnterUsernameAsAnd(String,String)
     When Open Url "https://wallethub.com/profile/test-insurance-company-13732055i"                                                                                              # PreconditionSteps.openUrl(String)
     When user hover on <4> star                                                                                                                                                 # DashboardSteps.userHoverOnStar(int)
-      java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
-	at java.util.ArrayList.get(ArrayList.java:435)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy18.get(Unknown Source)
-	at com.walletHub.Pages.Assignment2.DashboardPage.hoverOnStar(DashboardPage.java:55)
-	at stepFiles.Assignment2.DashboardSteps.userHoverOnStar(DashboardSteps.java:32)
-	at ?.user hover on <4> star(src/test/java/FeatureFiles/Assignment2.feature:13)
-
     Then verify that first <4> stars inside get lit up when you hover over on <4> one star                                                                                      # DashboardSteps.verifyThatFirstStarsInsideGetLitUpWhenYouHoverOverOnOneStar(int,int)
     When user give <4> star review                                                                                                                                              # DashboardSteps.userGiveReview(int)
     Then verify that <4> star review displayed on write review form                                                                                                             # DashboardSteps.verifyThatStarReviewDisplayedOnWriteReviewForm(int)
@@ -168,16 +198,24 @@ Feature: Assignment2
     When user submit review form                                                                                                                                                # DashboardSteps.userSubmitReviewForm()
     When Open Url "https://wallethub.com/profile"                                                                                                                               # PreconditionSteps.openUrl(String)
     Then Verify reviewed star count as <4>                                                                                                                                      # ProfilePageSteps.verifyReviewedStarCountAs(int)
+      java.lang.AssertionError: Verification failed, Expected review count is 4 and actual review count is 0 expected [4] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at stepFiles.Assignment2.ProfilePageSteps.verifyReviewedStarCountAs(ProfilePageSteps.java:23)
+	at ?.Verify reviewed star count as <4>(src/test/java/FeatureFiles/Assignment2.feature:21)
+
     Then Verify selected dropdownValue as "Health Insurance"                                                                                                                    # ProfilePageSteps.verifySelectedDropdownValueAs(String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 15752
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 41198
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1624342461.645][WARNING]: FromSockAddr failed on netmask
+[1624343444.415][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-[1624342461.685][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1624342461.685][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Jun 22, 2021 11:44:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1624343444.455][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1624343444.455][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Jun 22, 2021 12:00:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
